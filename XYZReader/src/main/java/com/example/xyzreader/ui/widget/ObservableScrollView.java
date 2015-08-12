@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.xyzreader.ui;
+package com.example.xyzreader.ui.widget;
 
 import android.content.Context;
 import android.os.Parcelable;
@@ -59,7 +59,7 @@ public class ObservableScrollView extends ScrollView {
         mCallbacks = listener;
     }
 
-    public static interface Callbacks {
-        public void onScrollChanged();
+    public interface Callbacks {
+        void onScrollChanged();
     }
 }
