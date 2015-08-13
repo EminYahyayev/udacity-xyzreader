@@ -1,5 +1,14 @@
 <resources>
+
+    <declare-styleable name="BaseTheme">
+        <attr name="clickableItemForeground" format="reference" />
+    </declare-styleable>
+
     <declare-styleable name="DrawInsetsFrameLayout">
         <attr name="insetBackground" format="color|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="AspectLockedImageView">
+        <attr name="aspectRatio" format="dimension"  />
     </declare-styleable>
 </resources>

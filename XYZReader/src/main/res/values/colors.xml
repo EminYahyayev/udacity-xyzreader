@@ -16,10 +16,31 @@
 -->
 
 <resources>
-    <color name="photo_placeholder">#ccc</color>
+    <color name="transparent">#00000000</color>
 
-    <color name="theme_primary">#04561A</color>
-    <color name="theme_primary_dark">#04561A</color>
-    <color name="theme_accent">#04561A</color>
+    <color name="body_text_1">#de000000</color>
+    <color name="body_text_2">#8a000000</color>
+    <color name="body_text_3">#60000000</color>
+    <color name="body_text_white">#FFFFFFFF</color>
+    <color name="body_text_disabled">#44000000</color>
+
+    <color name="body_text_1_inverse">#deffffff</color>
+    <color name="body_text_2_inverse">#8affffff</color>
+
+    <color name="theme_primary">@color/material_deeporange500</color>
+    <color name="theme_primary_dark">@color/material_deeporange700</color>
+    <color name="theme_accent">@color/material_cyanA700</color>
+
+    <color name="photo_placeholder">@color/material_deeporange50</color>
+    <color name="article_muted_color">@color/material_deeporange500</color>
+
+    <array name="swipe_progress_colors">
+        <item>@color/material_deeporange500</item>
+        <item>@color/material_cyanA700</item>
+    </array>
+
+    <color name="window_background">#e9eaed</color>
+    <color name="gray_background">#e4e4e4</color>
     <color name="ltgray">#ffe0e0e0</color>
+
 </resources>
