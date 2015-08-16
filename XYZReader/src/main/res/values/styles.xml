@@ -17,6 +17,11 @@
 
 <resources>
 
+    <style name="ArticleDetailAnchor">
+        <item name="android:layout_alignTop">@id/article_detail_photo_container</item>
+        <item name="android:layout_alignBottom">@id/article_detail_photo_container</item>
+    </style>
+
     <!-- Toolbar -->
 
     <style name="ActionBar.ThemeOverlay" parent="">
@@ -35,11 +40,6 @@
     <style name="ActionBar.Subtitle" parent="TextAppearance.AppCompat.Widget.ActionBar.Subtitle">
         <item name="android:textColor">@color/body_text_white</item>
         <item name="android:textSize">@dimen/text_size_medium</item>
-    </style>
-
-    <style name="ArticleDetailAnchor">
-        <item name="android:layout_alignTop">@id/article_detail_photo_container</item>
-        <item name="android:layout_alignBottom">@id/article_detail_photo_container</item>
     </style>
 
 </resources>

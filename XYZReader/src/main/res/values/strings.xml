@@ -1,6 +1,8 @@
 <resources>
 
-    <string name="app_name">XYZ Reader</string>
+    <string name="app_name" translatable="false">XYZ Reader</string>
+    <string name="__leak_canary_display_activity_label" translatable="false">XYZ Leaks</string>
+
     <string name="welcome_xyz_reader">Welcome to XYZ Reader!</string>
 
     <string name="action_refresh">Refresh</string>
@@ -9,5 +11,11 @@
 
     <string name="up">Up</string>
     <string name="article_thumbnail">Article thumbnail</string>
+
+    <!-- List -->
+    <string name="article_item_subtitle">%1$s by %2$s</string>
+
+    <!-- Details -->
+    <string name="article_detail_byline">%1$s by <font color='#ffffff'>%2$s</font></string>
 
 </resources>

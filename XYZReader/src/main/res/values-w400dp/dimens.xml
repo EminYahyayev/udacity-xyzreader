@@ -16,6 +16,6 @@
 
 <resources>
 
-    <integer name="list_column_count">2</integer>
+    <integer name="articles_column_count">2</integer>
 
 </resources>

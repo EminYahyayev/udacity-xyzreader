@@ -31,6 +31,6 @@
 
     <style name="Theme.Bacon.Detail.Base" parent="Theme.Bacon"/>
 
-    <style name="Theme.Bacon.Detail" parent="Theme.Bacon.Base"/>
+    <style name="Theme.Bacon.Detail" parent="Theme.Bacon.Detail.Base"/>
 
 </resources>
